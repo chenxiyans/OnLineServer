@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ADC10910E4893D022218BD0 /* libPods-机器人客服.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF366E7D41508EC985075A7 /* libPods-机器人客服.a */; };
+		36EFB4AE221F911A004689B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EFB4AD221F911A004689B0 /* AppDelegate.m */; };
+		36EFB4B1221F911A004689B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EFB4B0221F911A004689B0 /* ViewController.m */; };
+		36EFB4B4221F911A004689B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EFB4B2221F911A004689B0 /* Main.storyboard */; };
+		36EFB4B6221F911A004689B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36EFB4B5221F911A004689B0 /* Assets.xcassets */; };
+		36EFB4B9221F911A004689B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EFB4B7221F911A004689B0 /* LaunchScreen.storyboard */; };
+		36EFB4BC221F911A004689B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EFB4BB221F911A004689B0 /* main.m */; };
+		36EFB4C6221F911A004689B0 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EFB4C5221F911A004689B0 /* _____Tests.m */; };
+		36EFB4D1221F911B004689B0 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EFB4D0221F911B004689B0 /* _____UITests.m */; };
+		36EFB4E1221F9348004689B0 /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EFB4E0221F9348004689B0 /* rootViewController.m */; };
+		36EFB4E4221F94A8004689B0 /* OnLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EFB4E3221F94A8004689B0 /* OnLineViewController.m */; };
+		36EFB4EA221FBD46004689B0 /* chatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EFB4E9221FBD46004689B0 /* chatModel.m */; };
+		36EFB4ED221FBDE6004689B0 /* listTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EFB4EC221FBDE6004689B0 /* listTableViewCell.m */; };
+		36EFB4F0221FDCF7004689B0 /* chatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EFB4EF221FDCF7004689B0 /* chatTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36EFB4C2221F911A004689B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36EFB4A1221F911A004689B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36EFB4A8221F911A004689B0;
+			remoteInfo = "机器人客服";
+		};
+		36EFB4CD221F911B004689B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36EFB4A1221F911A004689B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36EFB4A8221F911A004689B0;
+			remoteInfo = "机器人客服";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CF366E7D41508EC985075A7 /* libPods-机器人客服.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-机器人客服.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2859211930A0CAB3166416B7 /* Pods-机器人客服.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-机器人客服.debug.xcconfig"; path = "Pods/Target Support Files/Pods-机器人客服/Pods-机器人客服.debug.xcconfig"; sourceTree = "<group>"; };
+		36EFB4A9221F911A004689B0 /* 机器人客服.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "机器人客服.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EFB4AC221F911A004689B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36EFB4AD221F911A004689B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36EFB4AF221F911A004689B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36EFB4B0221F911A004689B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36EFB4B3221F911A004689B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36EFB4B5221F911A004689B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36EFB4B8221F911A004689B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36EFB4BA221F911A004689B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EFB4BB221F911A004689B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36EFB4C1221F911A004689B0 /* 机器人客服Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "机器人客服Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EFB4C5221F911A004689B0 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		36EFB4C7221F911A004689B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EFB4CC221F911B004689B0 /* 机器人客服UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "机器人客服UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EFB4D0221F911B004689B0 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		36EFB4D2221F911B004689B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EFB4DF221F9348004689B0 /* rootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rootViewController.h; sourceTree = "<group>"; };
+		36EFB4E0221F9348004689B0 /* rootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rootViewController.m; sourceTree = "<group>"; };
+		36EFB4E2221F94A8004689B0 /* OnLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnLineViewController.h; sourceTree = "<group>"; };
+		36EFB4E3221F94A8004689B0 /* OnLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnLineViewController.m; sourceTree = "<group>"; };
+		36EFB4E8221FBD46004689B0 /* chatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatModel.h; sourceTree = "<group>"; };
+		36EFB4E9221FBD46004689B0 /* chatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatModel.m; sourceTree = "<group>"; };
+		36EFB4EB221FBDE6004689B0 /* listTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listTableViewCell.h; sourceTree = "<group>"; };
+		36EFB4EC221FBDE6004689B0 /* listTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = listTableViewCell.m; sourceTree = "<group>"; };
+		36EFB4EE221FDCF7004689B0 /* chatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatTableViewCell.h; sourceTree = "<group>"; };
+		36EFB4EF221FDCF7004689B0 /* chatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatTableViewCell.m; sourceTree = "<group>"; };
+		909300250AF6632E450A511E /* Pods-机器人客服.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-机器人客服.release.xcconfig"; path = "Pods/Target Support Files/Pods-机器人客服/Pods-机器人客服.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36EFB4A6221F911A004689B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADC10910E4893D022218BD0 /* libPods-机器人客服.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EFB4BE221F911A004689B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EFB4C9221F911B004689B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283532D0A022CED382237DCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CF366E7D41508EC985075A7 /* libPods-机器人客服.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36EFB4A0221F911A004689B0 = {
+			isa = PBXGroup;
+			children = (
+				36EFB4AB221F911A004689B0 /* 机器人客服 */,
+				36EFB4C4221F911A004689B0 /* 机器人客服Tests */,
+				36EFB4CF221F911B004689B0 /* 机器人客服UITests */,
+				36EFB4AA221F911A004689B0 /* Products */,
+				BA926F1140F1B010FCEA6C30 /* Pods */,
+				283532D0A022CED382237DCE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36EFB4AA221F911A004689B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36EFB4A9221F911A004689B0 /* 机器人客服.app */,
+				36EFB4C1221F911A004689B0 /* 机器人客服Tests.xctest */,
+				36EFB4CC221F911B004689B0 /* 机器人客服UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36EFB4AB221F911A004689B0 /* 机器人客服 */ = {
+			isa = PBXGroup;
+			children = (
+				36EFB4DE221F931F004689B0 /* Help */,
+				36EFB4AC221F911A004689B0 /* AppDelegate.h */,
+				36EFB4AD221F911A004689B0 /* AppDelegate.m */,
+				36EFB4AF221F911A004689B0 /* ViewController.h */,
+				36EFB4B0221F911A004689B0 /* ViewController.m */,
+				36EFB4E2221F94A8004689B0 /* OnLineViewController.h */,
+				36EFB4E3221F94A8004689B0 /* OnLineViewController.m */,
+				36EFB4E8221FBD46004689B0 /* chatModel.h */,
+				36EFB4E9221FBD46004689B0 /* chatModel.m */,
+				36EFB4EB221FBDE6004689B0 /* listTableViewCell.h */,
+				36EFB4EC221FBDE6004689B0 /* listTableViewCell.m */,
+				36EFB4EE221FDCF7004689B0 /* chatTableViewCell.h */,
+				36EFB4EF221FDCF7004689B0 /* chatTableViewCell.m */,
+				36EFB4B2221F911A004689B0 /* Main.storyboard */,
+				36EFB4B5221F911A004689B0 /* Assets.xcassets */,
+				36EFB4B7221F911A004689B0 /* LaunchScreen.storyboard */,
+				36EFB4BA221F911A004689B0 /* Info.plist */,
+				36EFB4BB221F911A004689B0 /* main.m */,
+			);
+			path = "机器人客服";
+			sourceTree = "<group>";
+		};
+		36EFB4C4221F911A004689B0 /* 机器人客服Tests */ = {
+			isa = PBXGroup;
+			children = (
+				36EFB4C5221F911A004689B0 /* _____Tests.m */,
+				36EFB4C7221F911A004689B0 /* Info.plist */,
+			);
+			path = "机器人客服Tests";
+			sourceTree = "<group>";
+		};
+		36EFB4CF221F911B004689B0 /* 机器人客服UITests */ = {
+			isa = PBXGroup;
+			children = (
+				36EFB4D0221F911B004689B0 /* _____UITests.m */,
+				36EFB4D2221F911B004689B0 /* Info.plist */,
+			);
+			path = "机器人客服UITests";
+			sourceTree = "<group>";
+		};
+		36EFB4DE221F931F004689B0 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				36EFB4DF221F9348004689B0 /* rootViewController.h */,
+				36EFB4E0221F9348004689B0 /* rootViewController.m */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		BA926F1140F1B010FCEA6C30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2859211930A0CAB3166416B7 /* Pods-机器人客服.debug.xcconfig */,
+				909300250AF6632E450A511E /* Pods-机器人客服.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36EFB4A8221F911A004689B0 /* 机器人客服 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EFB4D5221F911B004689B0 /* Build configuration list for PBXNativeTarget "机器人客服" */;
+			buildPhases = (
+				569A62E5F601A2B8C1BBD64D /* [CP] Check Pods Manifest.lock */,
+				36EFB4A5221F911A004689B0 /* Sources */,
+				36EFB4A6221F911A004689B0 /* Frameworks */,
+				36EFB4A7221F911A004689B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "机器人客服";
+			productName = "机器人客服";
+			productReference = 36EFB4A9221F911A004689B0 /* 机器人客服.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36EFB4C0221F911A004689B0 /* 机器人客服Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EFB4D8221F911B004689B0 /* Build configuration list for PBXNativeTarget "机器人客服Tests" */;
+			buildPhases = (
+				36EFB4BD221F911A004689B0 /* Sources */,
+				36EFB4BE221F911A004689B0 /* Frameworks */,
+				36EFB4BF221F911A004689B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36EFB4C3221F911A004689B0 /* PBXTargetDependency */,
+			);
+			name = "机器人客服Tests";
+			productName = "机器人客服Tests";
+			productReference = 36EFB4C1221F911A004689B0 /* 机器人客服Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36EFB4CB221F911B004689B0 /* 机器人客服UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EFB4DB221F911B004689B0 /* Build configuration list for PBXNativeTarget "机器人客服UITests" */;
+			buildPhases = (
+				36EFB4C8221F911B004689B0 /* Sources */,
+				36EFB4C9221F911B004689B0 /* Frameworks */,
+				36EFB4CA221F911B004689B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36EFB4CE221F911B004689B0 /* PBXTargetDependency */,
+			);
+			name = "机器人客服UITests";
+			productName = "机器人客服UITests";
+			productReference = 36EFB4CC221F911B004689B0 /* 机器人客服UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36EFB4A1221F911A004689B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = chen;
+				TargetAttributes = {
+					36EFB4A8221F911A004689B0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					36EFB4C0221F911A004689B0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 36EFB4A8221F911A004689B0;
+					};
+					36EFB4CB221F911B004689B0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 36EFB4A8221F911A004689B0;
+					};
+				};
+			};
+			buildConfigurationList = 36EFB4A4221F911A004689B0 /* Build configuration list for PBXProject "机器人客服" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36EFB4A0221F911A004689B0;
+			productRefGroup = 36EFB4AA221F911A004689B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36EFB4A8221F911A004689B0 /* 机器人客服 */,
+				36EFB4C0221F911A004689B0 /* 机器人客服Tests */,
+				36EFB4CB221F911B004689B0 /* 机器人客服UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36EFB4A7221F911A004689B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EFB4B9221F911A004689B0 /* LaunchScreen.storyboard in Resources */,
+				36EFB4B6221F911A004689B0 /* Assets.xcassets in Resources */,
+				36EFB4B4221F911A004689B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EFB4BF221F911A004689B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EFB4CA221F911B004689B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		569A62E5F601A2B8C1BBD64D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-机器人客服-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36EFB4A5221F911A004689B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EFB4B1221F911A004689B0 /* ViewController.m in Sources */,
+				36EFB4F0221FDCF7004689B0 /* chatTableViewCell.m in Sources */,
+				36EFB4BC221F911A004689B0 /* main.m in Sources */,
+				36EFB4E1221F9348004689B0 /* rootViewController.m in Sources */,
+				36EFB4EA221FBD46004689B0 /* chatModel.m in Sources */,
+				36EFB4ED221FBDE6004689B0 /* listTableViewCell.m in Sources */,
+				36EFB4E4221F94A8004689B0 /* OnLineViewController.m in Sources */,
+				36EFB4AE221F911A004689B0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EFB4BD221F911A004689B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EFB4C6221F911A004689B0 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EFB4C8221F911B004689B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EFB4D1221F911B004689B0 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36EFB4C3221F911A004689B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36EFB4A8221F911A004689B0 /* 机器人客服 */;
+			targetProxy = 36EFB4C2221F911A004689B0 /* PBXContainerItemProxy */;
+		};
+		36EFB4CE221F911B004689B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36EFB4A8221F911A004689B0 /* 机器人客服 */;
+			targetProxy = 36EFB4CD221F911B004689B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36EFB4B2221F911A004689B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36EFB4B3221F911A004689B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36EFB4B7221F911A004689B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36EFB4B8221F911A004689B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36EFB4D3221F911B004689B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36EFB4D4221F911B004689B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36EFB4D6221F911B004689B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2859211930A0CAB3166416B7 /* Pods-机器人客服.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "机器人客服/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chen.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36EFB4D7221F911B004689B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909300250AF6632E450A511E /* Pods-机器人客服.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "机器人客服/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chen.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36EFB4D9221F911B004689B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "机器人客服Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chen.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/机器人客服.app/机器人客服";
+			};
+			name = Debug;
+		};
+		36EFB4DA221F911B004689B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "机器人客服Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chen.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/机器人客服.app/机器人客服";
+			};
+			name = Release;
+		};
+		36EFB4DC221F911B004689B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "机器人客服UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chen.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "机器人客服";
+			};
+			name = Debug;
+		};
+		36EFB4DD221F911B004689B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "机器人客服UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chen.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "机器人客服";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36EFB4A4221F911A004689B0 /* Build configuration list for PBXProject "机器人客服" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EFB4D3221F911B004689B0 /* Debug */,
+				36EFB4D4221F911B004689B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EFB4D5221F911B004689B0 /* Build configuration list for PBXNativeTarget "机器人客服" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EFB4D6221F911B004689B0 /* Debug */,
+				36EFB4D7221F911B004689B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EFB4D8221F911B004689B0 /* Build configuration list for PBXNativeTarget "机器人客服Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EFB4D9221F911B004689B0 /* Debug */,
+				36EFB4DA221F911B004689B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EFB4DB221F911B004689B0 /* Build configuration list for PBXNativeTarget "机器人客服UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EFB4DC221F911B004689B0 /* Debug */,
+				36EFB4DD221F911B004689B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36EFB4A1221F911A004689B0 /* Project object */;
+}
